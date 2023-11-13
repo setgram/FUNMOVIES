@@ -7,13 +7,22 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <nav className="navbar">
-      <h1>MovieManiac</h1>
+    <div className="navbar">
+      <h1>FunMovies</h1>
       <div className="navbar_links">
-        <BsFire />
-        <AiFillStar />
-        <GiPartyPopper />
+        <span>
+          Popular
+          <BsFire />
+        </span>
+        <span>
+          Top rated
+          <AiFillStar />
+        </span>
+        <span>
+          Upcoming
+          <GiPartyPopper />
+        </span>
       </div>
-    </nav>
+    </div>
   );
 }

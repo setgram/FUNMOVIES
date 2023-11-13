@@ -2,15 +2,13 @@ import React from "react";
 
 import "./App.css";
 import Nav from "./comp/nav/Nav";
+import MovieList from "./movieList/MovieList";
 
 export default function App() {
   return (
     <div className="app">
-      <nav className="navbar">
-        <Nav />
-      </nav>
-
-      <main>Main Content</main>
+      <Nav />
+      <MovieList />
     </div>
   );
 }
